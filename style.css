@@ -1,0 +1,100 @@
+section {
+    display: flex;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+ 
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+
+
+
+img {
+    max-width: 105%;
+    width: 100%;
+    
+    
+
+}
+
+.card {
+   
+    max-width: 300px;
+    height: 460px;
+    background-image: linear-gradient(rgb(163, 163, 163), rgb(215, 215, 215));
+    border-radius: 20px;
+    padding: 0px;
+    margin-right: 10px;
+    
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    padding-bottom: -10px;
+
+}
+
+.menu {
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 115px;
+    padding-bottom: 20px;
+}
+
+.menu2 {
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 107px;
+    padding-bottom: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-pic {
+    background-color: white;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+
+}
+
+.icons1 {
+    max-width: 15%;
+    padding: 10px;
+    padding-left: 15px;
+    display: flex;
+    gap: 6px;
+    padding-bottom: 1px;
+  
+}
+
+.paragraph {
+    font-size: smaller;
+    padding: 6px;
+    padding-top: 0px;
+    line-height: 12px;
+}
+
+
+.info{
+    margin-left: 12px;
+}
+
+.name {
+    line-height: .5px;
+
+}
+
+.date {
+    color: rgb(186, 187, 187);
+}
