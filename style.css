@@ -1,15 +1,23 @@
 section {
     display: flex;
     padding-bottom: 10px;
-    flex-wrap: wrap;
     gap: 15px;
- 
     flex-direction: row;
     justify-content: flex-start;
     
 }
 
+@media screen and (max-width:976px) {
+    section{
+        flex-wrap: wrap;
+    }   
+}
 
+@media screen and (max-width:650px) {
+    section{
+        flex-wrap: wrap;
+    }   
+}
 
 img {
     max-width: 105%;
